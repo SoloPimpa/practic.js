@@ -4,7 +4,7 @@ function TextInput(props) {
     return (
         <div>
             <label>{props.label}</label>
-            <input type="text" value={props.value} onChange={props.onChange} placeholder={props.placeholder} /><br />
+            <input type='text' value={props.value} onChange={props.onChange} placeholder={props.placeholder} /><br />
         </div>
     );
 }
